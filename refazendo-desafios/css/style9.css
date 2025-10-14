@@ -1,0 +1,13 @@
+body {
+    text-align: justify;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+div.centro {
+    text-align: center;
+}

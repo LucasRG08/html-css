@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "Android";
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #C5EBD6;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+header {
+    background-image: linear-gradient(to top, #063D1E, #125D33, #228750, #2B9F60);
+    color: #fff;
+    text-align: center;
+}
+
+header > h1 {
+    margin-top: 0;
+    padding: 20px;
+    font: normal 38px "Bebas Neue", sans-serif;
+    margin: 0;
+    padding-bottom: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+}
+
+header > h2 {
+    font: normal 18px "Arial", sans-serif; 
+    margin: 0px;
+    padding: 5px 5px 35px 5px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+}
+
+nav {
+    text-align: left;
+    background-color: #063D1E;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
+nav > a {
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: #2FA866;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+main {
+    background-color: #fff;
+    max-width: 1100px;
+    min-width: 600px;
+    margin: auto;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main > h1 {
+    font-family: "Android", serif;
+    font-weight: 400;
+    color: rgb(6, 61, 30);
+    margin: 0;
+}
+
+main > h2 {
+    font-family: "Android", serif;
+    
+    color: rgb(6, 61, 30);
+    background-image: linear-gradient(to right, #D6F1E2, #fff);
+}
+
+main > p {
+    text-indent: 1.5em;
+    line-height: 2;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+img#bugdroid {
+    width: 50%;
+}
+
+aside{
+    background-color: #C5EBD6;
+    margin: auto;
+    padding: 0px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+}
+aside > h1 {
+    background-color: #063D1E;
+    margin: 0 -10px;
+    padding: 8px;
+    font-size: 19px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+aside > p {
+    text-indent: 1.5em;
+    line-height: 2;
+}
+
+aside > ul { 
+    columns: 2;
+    list-style-type: '\1F5F8\00A0\00A0';
+    list-style-position: inside;
+}
+
+footer {
+    background-color: #063D1E;
+    color: #fff;
+    text-align: center;
+}
+
+footer > p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
